@@ -1,0 +1,58 @@
+.cosmos{
+	width: 100%;
+	position: relative;
+}
+.astr{
+	height: 100px;
+	position: absolute;
+	bottom: 3%;
+	left: 0;
+	animation: astr 15s infinite ease-out;
+}
+.rocket{
+	height: 400px;
+	position: absolute;
+	bottom: 3%;
+	left: 50%;
+	animation: rocket 10s infinite ease-out;
+}
+.earth{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 3%;
+	right: 15%;
+	animation: earth 80s infinite;
+}
+.mfr{
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	position: absolute;
+	top: 40%;
+	left: 20%;
+	animation: mfr  10s infinite;
+}
+@keyframes astr{
+	0%{left:100px;}
+	30%{left: 200px;}
+	50%{left:500px;}
+}
+@keyframes rocket{
+	0%{top:400px;}
+	100%{top:-400px;}
+}
+@keyframes earth {
+	  0%{transform: rotate(45deg);}
+	  20%{transform: rotate(360deg);}
+	  40%{transform: rotate(90deg);}
+	  60%{transform: rotate(360deg);}
+	  100%{transform: rotate(45deg);}
+}
+@keyframes mfr{
+       0%{transform: rotate(45deg);}
+	  20%{transform: rotate(360deg);}
+	  40%{transform: rotate(90deg);}
+	  60%{transform: rotate(360deg);}
+	  100%{transform: rotate(45deg);}
+}
